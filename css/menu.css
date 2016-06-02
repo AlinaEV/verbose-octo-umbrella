@@ -1,0 +1,146 @@
+/* GENERAL STYLES */
+@font-face {
+  font-family: 'Architects Daughter';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Architects Daughter'), local('ArchitectsDaughter'), url(https://fonts.gstatic.com/s/architectsdaughter/v6/RXTgOOQ9AAtaVOHxx0IUBM3t7GjCYufj5TXV5VnA2p8.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+.container button {
+	font-family: 'Comfortaa', cursive, 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif!important;
+	font-size: 15px!important;
+	font-weight: bold!important;
+	}
+html{
+	background-color: black!important;
+}
+body {
+	font-family: 'Comfortaa', cursive, Arial!important;
+	font-size: 100%!important;
+	background-color: white!important;
+	border: 7px solid black;
+}
+ul {
+	margin: 0!important;
+	padding: 0!important;
+}
+ul li {
+	list-style-type: none!important;
+}
+a {
+	text-decoration: none!important; 
+}
+p {
+	font-size: 13px!important;
+	line-height: 1.3em!important;
+}
+
+/* NAVIGATION */
+.page-navigation1 {
+	background-color: #2e7bcf!important;
+	border-color: #101010!important;
+	min-height: 48px!important;
+	position: relative!important;
+	font-size: 15px!important;
+}
+.page-navigation1 li {
+	float: left!important;
+	width: 10vw!important;
+	
+}
+.page-navigation1 ul {
+	position: absolute!important;
+    top: 50%!important;
+    transform: 			translateY(-50%)!important;
+    }
+.page-navigation1 a {
+	display: block!important;
+	color: #fff!important;
+	font-family: 'Comfortaa', cursive, 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif!important;
+	line-height: 48px!important;
+	font-weight: bold!important;
+	text-align: center!important;
+}
+.page-navigation1 li a:hover {
+	color: yellowgreen!important;
+	background-color: black!important;
+}
+
+.loginout{
+	display: inline-flex;
+	position: absolute;
+	right: 0!important;
+    top: 50%!important;
+    transform: 			translateY(-50%)!important;
+}
+
+.container {
+	margin: 0 auto!important;
+	padding: 0 15px!important;
+}
+/* LOGIN FORM */
+.login {
+	padding: 10px 0;
+	float: right;
+}
+.login input[type="text"],
+.login input[type="password"] {
+	padding: 5px;
+	margin-right: 5px;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	outline: none;
+}
+.login input[type="submit"] {
+	padding: 5px 15px;
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+}
+.login input[type="submit"]:hover,
+button:hover {
+	background-color: darkgrey;
+	color: white;
+}
+
+
+/* FOOTER */
+.footer {
+	background-color: yellowgreen;
+	color: white;
+	padding: 10px 0!important;
+	margin-top: 0px!important;
+	font-family: 'Architects Daughter'!important;
+	position: relative!important;
+	top: 1vh;
+	text-align: center
+}
+
+a.button {
+  width: 134px;
+  height: 45px;
+  /*padding-left: 60px!important;*/
+  font-family: 'Comfortaa', cursive, 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial!important;
+  font-size: 20px!important;
+  line-height: 1.2!important;
+  color: #fff;
+}
+a.button small {
+  display: block!important;
+  font-size: 11px!important;
+}
+footer a.button {
+  position: absolute!important;
+  right: 0!important;
+  background: transparent url(../images/github-button.png) 0 0 no-repeat!important;
+  top: 50%!important;
+    transform: 			translateY(-50%)!important;
+    text-align: center;
+}
+aside a.button {
+  display: block!important;
+  width: 138px!important;
+  /*padding-left: 64px!important;*/
+  /*margin-bottom: 20px!important;*/
+  font-size: 21px!important;
+  background: transparent url(../images/download-button.png) 0 0 no-repeat!important;
+}

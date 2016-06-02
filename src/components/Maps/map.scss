@@ -1,0 +1,81 @@
+h1,h2,h3,h4 {
+	font-family: 'Comfortaa', cursive, 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif!important;
+	}
+#map {
+    /*margin-bottom: 1vh;*/
+    width: 69vw;
+    height: 81vh;
+      			  			
+}
+#dev{
+	text-align: center;
+	font-size: 20px;
+}
+.collections {
+	overflow: auto;
+	padding-top: 1vh;
+}
+.collection-title {
+	padding-bottom: 5px;
+	border-bottom: 1px solid #777;
+	font-size: 36px;
+}
+.collection-title small {
+	color: #777;
+	font-size: 70%;
+}
+.collection-item-outer {
+	display: inline-block;
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 20%;
+	box-sizing: border-box;
+	border: 1px solid #959595;
+
+}
+.map{
+	display: inline-block;
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 70%;
+	box-sizing: border-box;
+}
+.collections > div:first-child {
+	padding-left: 0;
+	padding-right: 10px;
+}
+.collections > div:last-child {
+	padding-right: 0;
+	padding-left: 10px;
+}
+
+.collection-text {
+	padding: 0 20px 20px 20px;
+}
+.collection-text h3 {
+	color: yellowgreen;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.collection-text p {
+	height: 80px;
+	overflow: hidden;
+}
+.collection-text button {
+	padding: 10px;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	outline: none;
+}
+
+ul li {
+	list-style-type: none!important;
+}
+ol li {
+	list-style-type: decimal!important;
+}
+
+
